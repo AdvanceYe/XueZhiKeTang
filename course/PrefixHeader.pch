@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  公开课项目1
+//
+//  Created by AdvanceYe on 15/7/7.
+//  Copyright (c) 2015年 AdvanceYe. All rights reserved.
+//
+
+#ifndef _____1_PrefixHeader_pch
+#define _____1_PrefixHeader_pch
+
+#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+//#define SET_COLOR [UIColor redColor]
+#define SET_COLOR [UIColor colorWithRed:119/255.0 green:85/255.0 blue:170/255.0 alpha:1]
+//#define LIGHT_SETCOLOR [UIColor colorWithRed:119/255.0 green:85/255.0 blue:170/255.0 alpha:0.2]
+#define LIGHT_SETCOLOR [UIColor colorWithRed:226/255.0 green:220/255.0 blue:244/255.0 alpha:1]
+//#define SET_COLOR [UIColor colorWithRed:102/255.0 green:204/255.0 blue:255/255.0 alpha:1]
+#define NAV_HEIGHT 44
+#define BAR_HEIGHT 20
+#define TITLE_HEIGHT 35
+#define FONT_MIDDLE 14.0f
+#define FONT_LARGE 16.0f
+#define FONT_SMALL 12.0f
+//#define PLACEHOLDERIMG @"account_candou@2x.png"
+#define PLACEHOLDERIMG @"default_bmiddle.gif"
+
+//判断手机版本
+#define IOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MyControl.h"
+#import "MJRefresh.h"
+#import "JGProgressHUD.h"
+#import "Tool.h"
+#import "ASIHTTPRequest.h"
+#import "ASINetworkQueue.h"
+
+#endif
